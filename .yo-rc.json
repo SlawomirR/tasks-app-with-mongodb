@@ -1,0 +1,32 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "io.github.slawomirr"
+        },
+        "jhipsterVersion": "5.3.1",
+        "applicationType": "monolith",
+        "baseName": "TasksAppMongo",
+        "packageName": "io.github.slawomirr",
+        "packageFolder": "io/github/slawomirr",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "mongodb",
+        "devDatabaseType": "mongodb",
+        "prodDatabaseType": "mongodb",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MTRlNWQ2OTQyZTA4ZWQ1ZGI5ZDU3MGZlZTc1ZmUyMTBkMGY2NjA3NWE0ODI4Y2VjYTBmMmUyZTRlODQ1MjY5MDBiYjE5ZGY4YjhjYjdjMjUzZWIxNmMzMDFkODhlODFiNGY5ZmIxMjk1NWY0YTk0NWM1MjQ3MTY3MmE4NjNkMzA=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "enableTranslation": false
+    }
+}
