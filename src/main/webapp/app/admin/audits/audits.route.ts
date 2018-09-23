@@ -1,5 +1,6 @@
-import { Route } from '@angular/router';
-import { JhiResolvePagingParams } from 'ng-jhipster';
+import { Injectable } from '@angular/core';
+import { ActivatedRouteSnapshot, Resolve, Route, RouterStateSnapshot } from '@angular/router';
+import { JhiPaginationUtil, JhiResolvePagingParams } from 'ng-jhipster';
 
 import { AuditsComponent } from './audits.component';
 

@@ -1,5 +1,5 @@
 import { ComponentFixture, fakeAsync, inject, TestBed, tick } from '@angular/core/testing';
-import { of, throwError } from 'rxjs';
+import { Observable, of, throwError } from 'rxjs';
 import { ElementRef, Renderer } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 

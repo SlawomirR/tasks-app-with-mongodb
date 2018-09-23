@@ -10,7 +10,6 @@ export class MockPrincipal extends SpyObject {
 
         this.setIdentitySpy({});
     }
-
     setIdentitySpy(json: any): any {
         this.identitySpy = this.spy('identity').andReturn(Promise.resolve(json));
     }

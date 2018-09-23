@@ -5,7 +5,6 @@ export class MockAlertService extends SpyObject {
     constructor() {
         super(JhiAlertService);
     }
-
     addAlert(alertOptions: JhiAlert) {
         return alertOptions;
     }

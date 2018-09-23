@@ -1,4 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
+import { of, throwError } from 'rxjs';
 
 import { TasksAppMongoTestModule } from '../../../test.module';
 import { JhiMetricsMonitoringModalComponent } from 'app/admin/metrics/metrics-modal.component';
